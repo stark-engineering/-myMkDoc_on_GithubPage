@@ -8,9 +8,11 @@ nav:
 
   - MySQL:
     # - index.md 
-    - 创建数据库: mysql/01.创建数据库.md
-    - 创建数据表: mysql/02.创建数据表.md
-    - 查询数据表: mysql/03.查询数据表.md
+    - MySQL 教程: mysql/01.MySQL 教程.md
+    - MySQL 安装 (windows): mysql/02.MySQL 安装 (windows).md
+    - 创建数据库: mysql/03.创建数据库.md
+    - 创建数据表: mysql/04.创建数据表.md
+    - 查询数据表: mysql/05.查询数据表.md
 
 theme:
   name: material
