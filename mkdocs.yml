@@ -1,0 +1,41 @@
+site_name: My Docs
+
+nav:
+  - Home:
+    - index.md 
+    - Page 1: home/page-1.md
+    - Page n: home/page-n.md
+
+  - MySQL:
+    # - index.md 
+    - 创建数据库: mysql/01.创建数据库.md
+    - 创建数据表: mysql/02.创建数据表.md
+    - 查询数据表: mysql/03.查询数据表.md
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+
+
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
